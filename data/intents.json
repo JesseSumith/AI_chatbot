@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye!", "Talk to you soon!", "Bye for now!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time"],
+      "responses": ["It's {{TIME}}"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh"],
+      "responses": ["{{JOKE}}"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["Sorry, I didn't get that. Could you rephrase?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who created you?", "Who is your developer?"],
+      "responses": ["I was created by Jesse!", "My developer is Jesse."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["How's the weather?", "Weather today?", "Is it raining?"],
+      "responses": ["I can't check live weather yet, but it’s always sunny in the terminal 😎"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?"],
+      "responses": ["I'm your friendly AI assistant 🤖"]
+    }
+  ]
+}
